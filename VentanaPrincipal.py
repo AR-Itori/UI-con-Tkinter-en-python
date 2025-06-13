@@ -2,7 +2,7 @@
 
 import tkinter as tk
 
-# Funcion que devuelve cordenadas para centrar una ventana
+# Funcion que devuelve cordenadas para centrar una ventana usando un multiplicador de 0 a 1
 def centrarV(mult):
     # Definir un tamaño de ventana basado en la resolución x el % deseado
     ancho = int(Anp * mult)  # % del ancho de la pantalla
