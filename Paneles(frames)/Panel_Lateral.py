@@ -55,7 +55,7 @@ ventana.state("normal")
 
 # / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /#
 
-# Crear el panel Principal
+# Crear el panel principal donde sobrepondremos los demas paneles (asi se pueden simular varias pantallas en la misma ventana)
 principal = tk.Frame(ventana, bg="lightcoral")
 principal.place(relx=0, rely=0, relwidth=1, relheight=1)
 # Los prinmeros dos valores del .place() controlan a que distancia aparecen en X y Y cordenadas
